@@ -31,7 +31,9 @@ Clone the repository:
 git clone https://github.com/nihalpoojary04/portfolio-nihal.git
 
 cd portfolio-nihal
+
 npm install
+
 npm run dev
 
 
