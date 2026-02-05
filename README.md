@@ -3,7 +3,7 @@ This is my professional portfolio website built using React + Vite as part of th
 The goal of this project was to build a high-performance, accessible, mobile-first portfolio that reflects professional frontend engineering standards.
 
 ## 🔗 Live Demo
-nihal-poojary.vercel.app
+https://nihal-poojary.vercel.app
 
 ## ⚙️ Tech Stack
 - React
