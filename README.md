@@ -1,16 +1,56 @@
-# React + Vite
+# Personal Portfolio – Nihal S Poojary
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my professional portfolio website built using React + Vite as part of the Sprint 01 Engineering Identity Challenge.
 
-Currently, two official plugins are available:
+The goal of this project was to build a high-performance, accessible, mobile-first portfolio that reflects professional frontend engineering standards.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
+https://YOUR-VERCEL-LINK.vercel.app
 
-## React Compiler
+## ⚙️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS (custom variables + grid layout)
+- Lighthouse accessibility optimization
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Mobile-first responsive layout
+- Dark theme with WCAG-compliant contrast
+- Component-based architecture
+- Accessible semantic HTML structure
+- Lighthouse Accessibility ≥ 90
+- Lighthouse Performance ≥ 90
+
+## 🧠 Engineering Highlights
+
+- Semantic heading structure (h1 → h2 → h3)
+- ARIA labels for navigation clarity
+- CSS Grid auto-fit responsive design
+- Optimized bundle for performance
+
+## 📦 Installation
+
+Clone the repository:
+git clone https://github.com/nihalpoojary04/portfolio-test.git
+cd portfolio-test
+npm install
+npm run dev
+
+
+## 📄 Process Documentation
+
+See `PROCESS.md` for architecture decisions, AI usage, and problem-solving details.
+
+## 📬 Contact
+
+GitHub: https://github.com/nihalpoojary04  
+LinkedIn: https://www.linkedin.com/in/nihal-s-poojary-28a874309
+
+Commit and push:
+
+git add README.md
+git commit -m "Update professional README"
+git push

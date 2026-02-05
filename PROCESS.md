@@ -13,12 +13,14 @@ I utilized the **Gemini 2.0 Flash** model via the Antigravity agent to accelerat
 1.  **Role Definition**: I instructed the AI to act as a "Senior Frontend Engineer" to ensure code quality met professional standards.
 2.  **Context Loading**: I provided the full "Sprint 01 Challenge" text to ground the AI in the specific constraints (90+ performance, mobile-first).
 3.  **Iterative Refinement**:
-    - *Initial Prompt*: "Generate a portfolio." -> *Refined*: "Generate a React portfolio specifically for [Name] using the attached resume data, focusing on dark mode aesthetics and specific 'Proficient' vs 'Familiar' skill separation."
+    - *Initial Prompt*: "Generate a portfolio." -> *Refined*: "Generate a React portfolio specifically for Nihal S Poojary using the attached resume data, focusing on dark mode aesthetics and specific 'Proficient' vs 'Familiar' skill separation."
 4.  **Constraint Enforcement**: Explicitly requested "No external UI libraries" to ensure I understood every line of code as per the challenge rules.
 
 ## Challenges & Solutions
 **Challenge**: Ensuring high accessibility (Contrast ratios) on a dark mode theme.
 **Solution**: I used a high-contrast color palette, testing foreground text against the dark background to ensure WCAG AA compliance.
 
-**Challenge**: Responsive Grid for specific resume items.
-**Solution**: Implemented `display: grid` with `repeat(auto-fit, minmax(...))` to automatically adjust project cards for mobile devices without media queries where possible.
+**Challenge**: Challenge: Achieving 90+ Lighthouse accessibility score.
+**Solution**: Refactored heading structure (h1 → h2 → h3),
+added ARIA labels, and improved color contrast to meet WCAG standards.
+
