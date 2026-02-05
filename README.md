@@ -44,9 +44,12 @@ See `PROCESS.md` for architecture decisions, AI usage, and problem-solving detai
 GitHub: https://github.com/nihalpoojary04  
 LinkedIn: https://www.linkedin.com/in/nihal-s-poojary-28a874309
 
-Commit and push:
+## Commit and push:
+
 git add README.md
+
 git commit -m "Update professional README"
+
 git push
 
 # Personal Portfolio
