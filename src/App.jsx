@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <main>
+      <main id="main-content">
         <Hero />
         <Skills />
         <Projects />
@@ -19,5 +19,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

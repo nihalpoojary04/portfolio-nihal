@@ -2,8 +2,10 @@
   --bg-primary: #0a0a0a;
   --bg-secondary: #1a1a1a;
   --text-primary: #ffffff;
-  --text-secondary: #a0a0a0;
-  --accent-color: #00d4ff; /* Vibrant Cyan */
+  --text-secondary: #d9d9d9;
+
+  --accent-color: #00ffff;
+   /* Vibrant Cyan */
   --accent-glow: rgba(0, 212, 255, 0.3);
   --card-bg: #222;
   --font-main: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;

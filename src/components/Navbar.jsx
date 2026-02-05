@@ -22,11 +22,24 @@ const Navbar = () => {
     return (
         <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
             <div className="container nav-content">
-                <h1 className="logo">Nihal.dev</h1>
+                <div className="logo">Nihal.dev</div>
                 <ul className="nav-links">
-                    <li><button onClick={() => scrollToSection('hero')}>Home</button></li>
-                    <li><button onClick={() => scrollToSection('skills')}>Skills</button></li>
-                    <li><button onClick={() => scrollToSection('projects')}>Projects</button></li>
+                    <li>
+  <button aria-label="Go to home section" onClick={() => scrollToSection('hero')}>
+    Home
+  </button>
+</li>
+<li>
+  <button aria-label="Go to skills section" onClick={() => scrollToSection('skills')}>
+    Skills
+  </button>
+</li>
+<li>
+  <button aria-label="Go to projects section" onClick={() => scrollToSection('projects')}>
+    Projects
+  </button>
+</li>
+
                 </ul>
             </div>
         </nav>
