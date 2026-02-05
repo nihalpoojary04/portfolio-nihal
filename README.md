@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Personal Portfolio – Nihal S Poojary
 
 This is my professional portfolio website built using React + Vite as part of the Sprint 01 Engineering Identity Challenge.
@@ -54,3 +55,15 @@ Commit and push:
 git add README.md
 git commit -m "Update professional README"
 git push
+=======
+# Personal Portfolio
+
+This is my professional portfolio website built using React + Vite
+as part of Sprint 01 – Engineer’s Identity challenge.
+
+## Tech Stack
+- React
+- Vite
+- JavaScript
+- CSS
+>>>>>>> 0dc531bfbf9f920ed43bb7e397c7b329ac701c86
