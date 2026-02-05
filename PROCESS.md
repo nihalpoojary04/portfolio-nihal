@@ -7,7 +7,7 @@ I chose a **component-based architecture** using React and Vite for the followin
 - **Vanilla CSS**: Used CSS variables (`:root`) and scoped classes to avoid the overhead of a large CSS framework, ensuring a high Lighthouse performance score.
 
 ## AI Usage & Prompt Engineering
-I utilized the **Gemini 2.0 Flash** model via the Antigravity agent to accelerate development.
+I utilized the **Gemini 3 pro (high)** model via the Antigravity agent to accelerate development.
 
 ### Prompt Engineering Process
 1.  **Role Definition**: I instructed the AI to act as a "Senior Frontend Engineer" to ensure code quality met professional standards.
@@ -18,9 +18,11 @@ I utilized the **Gemini 2.0 Flash** model via the Antigravity agent to accelerat
 
 ## Challenges & Solutions
 **Challenge**: Ensuring high accessibility (Contrast ratios) on a dark mode theme.
+
 **Solution**: I used a high-contrast color palette, testing foreground text against the dark background to ensure WCAG AA compliance.
 
 **Challenge**: Challenge: Achieving 90+ Lighthouse accessibility score.
+
 **Solution**: Refactored heading structure (h1 → h2 → h3),
 added ARIA labels, and improved color contrast to meet WCAG standards.
 
